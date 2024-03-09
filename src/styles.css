@@ -12,7 +12,6 @@ body {
 
 mat-sidenav.menufix {
   background-image: linear-gradient(to bottom, #014E8F, #68BBE7);
-  /*background-image: url('./assets/fondo.svg');*/
   color: white;
   width: 16.063rem;
   position: fixed;
@@ -34,6 +33,7 @@ mat-icon#icon-color {
   align-items: center;
   color: white;
   font-weight: medium;
+  font-family: "Ubuntu", sans-serif;
 }
 
 mat-nav-list.padmenu {
@@ -47,4 +47,8 @@ mat-list-item.padmenu1 {
 
 mat-list-item.padmenu1:hover {
   background-color: #5791BC;
+}
+
+.mat-drawer-content{
+  overflow: hidden !important;
 }
