@@ -1,0 +1,30 @@
+<router-outlet />
+
+<mat-sidenav-container style="background-color: transparent;">
+  <mat-sidenav class="menufix" mode="side" opened>
+    <div id="logo">
+      <img src="./assets/logo.svg">
+    </div>
+    <mat-nav-list class="padmenu">
+      <mat-list-item class="padmenu1">
+        <div id="listItem">
+          <mat-icon  matListIcon id="icon-color" class="material-icons-outlined">home_outlined</mat-icon>
+          Home
+        </div>
+      </mat-list-item>
+      <mat-list-item class="padmenu1">
+        <div id="listItem">
+          <mat-icon  matListIcon id="icon-color" class="material-icons-outlined">account_circle</mat-icon>
+          Mi Cuenta
+        </div>
+      </mat-list-item>
+      <mat-list-item class="padmenu1">
+        <div id="listItem">
+          <mat-icon  matListIcon id="icon-color" class="material-icons-outlined">language</mat-icon>
+          Grupos familiares
+        </div>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>Main content</mat-sidenav-content>
+</mat-sidenav-container>

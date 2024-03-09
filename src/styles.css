@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+html,body {
+  height: 100%;
+}
+
+body {
+  background-color: #E2EBFC;
+  font-family: "Ubuntu", sans-serif;
+  color: #1A2749;
+  /*background-image: url('./assets/fondo.svg');*/
+}
+
+mat-sidenav.menufix {
+  background-image: linear-gradient(to bottom, #014E8F, #68BBE7);
+  /*background-image: url('./assets/fondo.svg');*/
+  color: white;
+  width: 16.063rem;
+  position: fixed;
+}
+
+mat-icon#icon-color {
+  color: white;
+  margin: 0 0.52rem 0 0.54rem;
+}
+
+#logo {
+  justify-content: center;
+  display: flex;
+  margin: 45px 0;
+}
+
+#listItem {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: medium;
+}
+
+mat-nav-list.padmenu {
+  padding: 0.5rem 0.938rem;
+}
+
+mat-list-item.padmenu1 {
+  padding: 1rem 0.06rem;
+  border-bottom: 0.063rem solid #F2F4F8;
+}
+
+mat-list-item.padmenu1:hover {
+  background-color: #5791BC;
+}
