@@ -1,0 +1,36 @@
+<div class="container-fluid cajon">
+  <div class="titulos">
+    Crear Grupo Familiar
+  </div>
+  <div class="formulario">
+    <div class="grupo-familia">
+      <label for="nombre-grupo" class="etiqueta-nombre">Nombre del grupo:</label>
+      <mat-form-field class="campo-nombre" appearance="outline">
+        <input matInput id="nombre-grupo" formControlName="nombreGrupo">
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <div class="col-9">
+        <div class="grupo-miembro" *ngFor="let item of miembroArray">
+          <label for="nombre-miembro" class="etiqueta-miembro">Nombre del miembro:</label>
+          <mat-form-field class="campo-nombre" appearance="outline">
+            <input matInput id="nombre-miembro" formControlName="nombreMiembro" value="{{item.nombre}}">
+          </mat-form-field>
+          <label for="rol-miembro" class="etiqueta-rol">Rol:</label>
+          <mat-form-field class="campo-nombre" appearance="outline">
+            <input matInput id="rol-miembro" formControlName="rolMiembro" value="{{item.rol}}">
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="col-3">
+        <button mat-stroked-button class="botones" (click)="agregarMiembro()">Agregar otro miembro</button>
+      </div>
+    </div>
+
+    <div class="acciones">
+      <button mat-stroked-button class="botones-crear" (click)="openDialog()">Crear</button>
+      <button mat-stroked-button class="botones-cancelar">Cancelar</button>
+    </div>
+  </div>
+</div>

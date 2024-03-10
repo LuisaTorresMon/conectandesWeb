@@ -1,0 +1,130 @@
+.titulos {
+  font-size: 3.375rem;
+  font-weight: bold;
+  color: #1A2749;
+}
+
+.cajon {
+  padding: 5.1rem 3.1rem 0;
+}
+
+.formulario {
+  background-color: white;
+  border-radius: 0.625rem;
+  height: auto;
+  margin-top: 1.9rem;
+  padding: 2.9rem 1.9rem 2.9rem 1.8rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #1A2749;
+}
+
+.grupo-familia {
+  margin-top:0;
+}
+
+.grupo-miembro {
+  margin-top: 2.7rem;
+}
+
+.etiqueta-nombre {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+
+.etiqueta-miembro {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 1.3rem;
+}
+
+.etiqueta-rol {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0 1.5rem 0 2.4rem;
+}
+
+mat-form-field.campo-nombre {
+  width: 13.125rem !important;
+  border: 0.063rem solid #1A2749;
+  color: #1A2749;
+  font-size: 0.813rem;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 0.25rem;
+  height: 2.75rem;
+}
+
+::ng-deep .mat-mdc-text-field-wrapper {
+  height: 2.75rem !important;
+}
+
+button.botones {
+  background-color: #3B608F;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  height: 2.75rem;
+  margin: 2.7rem 0 0 2.1rem;
+}
+
+button.botones-crear {
+  background-color: #3B608F;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  height: 2.75rem;
+}
+
+button.botones-cancelar {
+  background-color: #3B608F0D;
+  color: #1A2749;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  height: 2.75rem;
+  border: 0.063rem solid #1A2749;
+  margin-left: 1.313rem;
+}
+
+div.acciones {
+  margin-top: 3.125rem;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.tamano {
+  height: 11.5rem;
+  width: 16rem;
+}
+
+.etiqueta-dialogo {
+  color: #1A2749;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-top: 0.9rem;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+}
+
+.icono {
+  color: #0ED145;
+  transform: scale(1.4);
+  margin-top: 0.8rem;
+}
+
+button.botones-dialogo {
+  background-color: #F4956A;
+  color: #1A2749;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  height: 2.5rem;
+  border: 0.063rem solid #1A2749;
+  margin-top: 1.4rem;
+}
