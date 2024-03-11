@@ -1,0 +1,66 @@
+<div class="container-fluid cajon">
+  <div class="titulos">
+    Mi cuenta
+  </div>
+  <div class="grupo-datos-basicos">
+    <mat-card class="tarjeta-grupo-datos-basicos">
+      <mat-card-content>
+        <div class="contenido-flex">
+          <div class="imagen-perfil">
+            <img src="assets/foto-perfil.jpg" alt="Foto de perfil" class="foto-perfil">
+            <mat-card-actions  class="acciones-imagen">
+              <button mat-icon-button>
+                <mat-icon class="material-icons-outlined">edit</mat-icon>
+              </button>
+            </mat-card-actions>
+          </div>
+          <div class="informacion-perfil">
+            <div class="formulario">
+              <div class="row">
+                <div class="col-12">
+                  <div class="grupo-miembro" *ngFor="let userProfile of profile">
+
+                    <div class="linea-datos">
+                      <label for="etiqueta-nombre" class="etiqueta-nombre">Nombre:</label>
+                      <input matInput id="nombre-miembro" value="{{userProfile.name}}">
+                    </div>
+
+                    <div class="linea-datos">
+                      <label for="etiqueta-email" class="etiqueta-nombre">Email:</label>
+                      <input matInput id="email-miembro" value="{{userProfile.email}}">
+                    </div>
+
+                    <div class="linea-datos">
+                      <label for="etiqueta-password" class="etiqueta-nombre">Password:</label>
+                      <input matInput type="password" id="password-miembro" value="{{userProfile.password}}">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="acciones">
+            <button mat-stroked-button class="botones-crear" (click)="openDialog()">Guardar</button>
+            <button mat-stroked-button class="botones-cancelar">Cancelar</button>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <div class="subtitulos">
+    Grupos Familiares
+  </div>
+
+  <div class="grupos">
+    <mat-card class="tarjetas">
+      <mat-card-title>Familia Lopez</mat-card-title>
+      <mat-card-content>
+        <p>• Nora Sanchez (Esposa)</p>
+        <p>• Alberto Lopez (Hijo)</p>
+        <p>• Jose Lopez (Abuelo)</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

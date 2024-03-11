@@ -1,0 +1,216 @@
+.titulos {
+  font-size: 3.375rem;
+  font-weight: bold;
+  color: #1A2749;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.subtitulos {
+  font-size: 2.375rem;
+  font-weight: bold;
+  color: #1A2749;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cajon {
+  margin-top: 10px;
+  margin-left: 30px;
+  min-height: 100vh;
+}
+
+button.botones {
+  background-color: #3B608F;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  float: right;
+  height: 2.75rem;
+}
+
+.grupos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grupo-datos-basicos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+mat-card.tarjetas {
+  width: 21rem;
+  height: 18.438rem;
+}
+
+mat-card.tarjeta-grupo-datos-basicos {
+  width: 1074px;
+  height: 285px;
+}
+
+mat-card-title {
+  color: #1A2749;
+  font-size: 1.375rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+mat-card-subtitle {
+  color: #1A2749;
+  font-size: 0.813rem;
+  text-align: right;
+  margin-right: 2rem;
+  font-style: italic;
+  font-family: "Ubuntu", sans-serif;
+}
+
+mat-card-content {
+  color: #1A2749;
+  font-size: 1rem;
+  margin: 0.4rem 0 0 2.1rem
+}
+
+mat-card-actions {
+  display: inline-block;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.contenido-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagen-perfil {
+  margin-top: 10px;
+  flex: 1;
+  position: relative;
+}
+
+.foto-perfil {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.informacion-perfil {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.boton-container {
+  margin-top: 70px; /* Ajusta el espacio entre los párrafos y el botón */
+  margin-right: 30px;
+}
+
+.etiqueta-nombre {
+  margin-right: 10px;
+  width: 100px;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: #1A2749;
+}
+
+mat-form-field.campo-nombre {
+  width: 13.125rem !important;
+  border: 0.063rem solid #1A2749;
+  color: #1A2749;
+  font-size: 0.813rem;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 0.25rem;
+  height: 2.75rem;
+  margin-top: 0px;
+  margin-right: 30px;
+}
+
+.linea-datos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.campo-nombre {
+  flex: 1;
+}
+
+.acciones-imagen {
+  position: absolute; /* Establece el posicionamiento absoluto */
+  bottom: 5px; /* Ajusta la distancia desde la parte inferior según sea necesario */
+  left: 200px; /* Ajusta la distancia desde el borde derecho según sea necesario */
+}
+
+.icono {
+  color: #0ED145;
+  transform: scale(1.4);
+  margin-top: 0.8rem;
+}
+
+button.botones-dialogo {
+  background-color: #F4956A;
+  color: #1A2749;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  height: 2.5rem;
+  border: 0.063rem solid #1A2749;
+  margin-top: 1.4rem;
+}
+
+.etiqueta-dialogo {
+  color: #1A2749;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-top: 0.9rem;
+}
+
+.tamano {
+  height: 11.5rem;
+  width: 16rem;
+}
+
+.ubicacion {
+  display: flex;
+  justify-content: center;
+}
+
+button.botones-crear {
+  background-color: #3B608F;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  height: 2.75rem;
+  margin-bottom: 10px;
+}
+
+button.botones-cancelar {
+  background-color: #3B608F0D;
+  color: #1A2749;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  height: 2.75rem;
+  border: 0.063rem solid #1A2749;
+  margin-left: 1.313rem;
+}
+
+div.acciones {
+  margin-top: 170px;
+  margin-right: 30px;
+  justify-content: flex-end;
+  display: flex;
+}

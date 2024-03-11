@@ -1,0 +1,135 @@
+.titulos {
+  font-size: 3.375rem;
+  font-weight: bold;
+  color: #1A2749;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.subtitulos {
+  font-size: 2.375rem;
+  font-weight: bold;
+  color: #1A2749;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cajon {
+  margin-top: 10px;
+  margin-left: 30px;
+  min-height: 100vh;
+}
+
+button.botones {
+  background-color: #3B608F;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  float: right;
+  height: 2.75rem;
+}
+
+.grupos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grupo-datos-basicos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+mat-card.tarjetas {
+  width: 21rem;
+  height: 18.438rem;
+}
+
+mat-card.tarjeta-grupo-datos-basicos {
+  width: 1074px;
+  height: 285px;
+}
+
+mat-card-title {
+  color: #1A2749;
+  font-size: 1.375rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 1.4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+mat-card-subtitle {
+  color: #1A2749;
+  font-size: 0.813rem;
+  text-align: right;
+  margin-right: 2rem;
+  font-style: italic;
+  font-family: "Ubuntu", sans-serif;
+}
+
+mat-card-content {
+  color: #1A2749;
+  font-size: 1rem;
+  margin: 0.4rem 0 0 2.1rem
+}
+
+mat-card-actions {
+  display: inline-block;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.contenido-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagen-perfil {
+  margin-top: 10px;
+  flex: 1;
+}
+
+.foto-perfil {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.informacion-perfil {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.boton-container {
+  margin-top: 70px; /* Ajusta el espacio entre los párrafos y el botón */
+  margin-right: 30px;
+}
+
+.etiqueta-nombre {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: #1A2749;
+  margin-top: 30px;
+}
+
+.valor-nombre {
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-family: "Ubuntu", sans-serif;
+  color: #1A2749;
+}
+
+.informacion-perfil label {
+  display: block;
+  margin-bottom: 0px;
+  text-align: left;
+}
