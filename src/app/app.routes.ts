@@ -5,6 +5,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
 export const routes: Routes = [
+  { path: '', title: 'Home', component: UserProfileComponent },
   { path: 'view-family-group', title: 'View Family Group', component: ViewFamilyGroupComponent },
   { path: 'create-family-group', title: 'Create Family Group', component: CreateFamilyGroupComponent },
   { path: 'user-profile', title: 'Show Profile', component: UserProfileComponent },
